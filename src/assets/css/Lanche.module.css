@@ -1,0 +1,21 @@
+.body{
+    background-color: #B98A6C;
+    display: flex;
+    justify-content: space-between;
+}
+.fileiraUm{
+    height: 721px;
+    width: 281px;
+    transform: rotate(180deg);
+}
+.fileiraDois{
+    width: 301px;
+    height: 720px;
+}
+.lanche{
+    width: 564px;
+    height: 358px;
+}
+.texto{
+    display: s
+}

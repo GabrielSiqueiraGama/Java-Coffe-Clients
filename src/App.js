@@ -1,16 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Footer from './pages/Footer.tsx';
+import Franqueado from './pages/home/Franqueado.tsx';
+import Header from './pages/Header.tsx';
+import Lanche from './pages/home/Lanche.tsx';
+import Gota from './pages/home/Gota.tsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Java Coffe.
-        </p>
-      </header>
-      <footer></footer>
+      <Header/>
+      <Gota/>
+      <Lanche/>
+      <Franqueado/>
+      <Footer/>
     </div>
   );
 }
