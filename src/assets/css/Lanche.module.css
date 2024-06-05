@@ -12,10 +12,29 @@
     width: 301px;
     height: 720px;
 }
+.meio{
+    display: flex;
+    flex-direction: column;
+flex-wrap: wrap;
+}
 .lanche{
     width: 564px;
     height: 358px;
+    margin-top: 1px;
 }
 .texto{
-    display: s
+    color: var(--darkBrown);
+    font-size: 60px;
+}
+.descricao{
+    color: var(--descriptionColor);
+    font-size: 24px;
+}
+.botao{
+    width: 183px;
+    height: 57px;
+    border-radius: 28.5px;
+    background-color: var(--darkBrown);
+    color: var(--lightBrown);
+    font-size: 20px;
 }

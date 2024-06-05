@@ -6,7 +6,7 @@ const Gota = () => {
   return(
     <div className={styles.body}>
         <img src={cafeCidade}/>
-        <h1>Cada gota, uma nova descoberta.</h1>
+        <h1 className={styles.texto}>Cada gota, uma nova descoberta.</h1>
     </div>
     
   )
