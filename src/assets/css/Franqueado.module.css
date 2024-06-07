@@ -1,10 +1,30 @@
 .body{
-    margin-bottom: 100px;
+    height: 678px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
 }
 .boxBarista{
-    border-radius: 43;
+    border-radius: 43px;
     width: 402px;
     height: 347px;
-    background-color: #2D1913;
-    margin-bottom: 600px;
+    background-color: var(--darkBrown);
+}
+.imgBarista{
+    width: 612px;
+    height: 408px;
+    margin: -60.5px 0px 0px -120px;
+}
+.texto{
+    margin-top: -30px;
+    width: 651px;
+    font-size: 60px;
+    color: var(--darkBrown);
+}
+.descricao{
+    margin-top: -30px;
+    width: 639px;
+    font-size: 24px;
+    color: var(--descriptionColor);
 }

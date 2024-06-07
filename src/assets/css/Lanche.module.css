@@ -1,4 +1,5 @@
 .body{
+    height: 721px;
     background-color: #B98A6C;
     display: flex;
     justify-content: space-between;
@@ -14,8 +15,10 @@
 }
 .meio{
     display: flex;
+    align-items: center;
     flex-direction: column;
-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 .lanche{
     width: 564px;
@@ -27,8 +30,12 @@ flex-wrap: wrap;
     font-size: 60px;
 }
 .descricao{
+    margin: 0px 0px 50px 0px;
+    width: 459px;
+    height: 69px;
     color: var(--descriptionColor);
     font-size: 24px;
+    text-align: center
 }
 .botao{
     width: 183px;
