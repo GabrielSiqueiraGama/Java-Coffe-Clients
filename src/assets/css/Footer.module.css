@@ -1,4 +1,23 @@
-.body{
+.footer{
     background-color: var(--darkBrown);
     height: 239px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 4rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.midias{
+    display: flex;
+}
+.links{
+    color: var(--ligthbrown);
+    font-weight: 600;
+    text-decoration: none;
+}
+.links:hover{
+    color: var(--yellowBrown);
 }
