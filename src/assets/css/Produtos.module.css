@@ -5,11 +5,12 @@
 }
 .boxItens{
     display: flex;
-    margin-left: 45px;
+    margin: 10px;
     border-radius: 43px;
     width: 460px;
     height: 180px;
     background-color: var(--darkBrown);
+    gap: 1rem;
 }
 .imgItens{
     border-radius: 43px;
@@ -29,4 +30,10 @@
 }
 p{
     color: var(--lightBrown);
+}
+.boxProdutos{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
 }
