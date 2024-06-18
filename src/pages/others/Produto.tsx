@@ -20,7 +20,7 @@ const Produto = () => {
 
   return (
     <div className={styles.body}>
-      <h1>Lista de produtos:</h1>
+      <h1 className={styles.titulo}>Cardapio de nossa cafeteria:</h1>
         <div className={styles.boxProdutos}>
         {
           data.map((produto, index) => (
@@ -28,8 +28,8 @@ const Produto = () => {
               <img src={produto.imagem} alt={produto.nome} className={styles.imgItens} />
               <div className={styles.textProduto}>
                 <p className={styles.productName}>{produto.nome}</p>
-                <p>{produto.descricao}</p>
-                <p>Preço: {produto.preco} R$</p>
+                <p className={styles.descricao}>{produto.descricao}</p>
+                <p>Preço: {produto.preco.toFixed(2)} R$</p>
               </div>
             </div>
           ))

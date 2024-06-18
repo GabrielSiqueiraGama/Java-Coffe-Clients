@@ -9,12 +9,12 @@ const NavBar = () => {
       <div className={styles.divLogo}>
   
         <img src={logo} alt="Logo do simbolo do Java" />
-        <p>Java Coffee</p>
+        <p className={styles.nomeLogo}>Java Coffee</p>
       </div>
       <ul>
-      <NavLink to='/Home' ><li>Home</li></NavLink>
-      <NavLink to='/Cardapio' ><li>Cardapio</li></NavLink>
-      <NavLink to='/Franqueado' ><li>Franqueado</li></NavLink>
+      <NavLink to='/Home' className={({ isActive }) => (isActive ? styles.active : undefined)}><li>Home</li></NavLink>
+      <NavLink to='/Cardapio' className={({ isActive }) => (isActive ? styles.active : undefined)}><li>Cardapio</li></NavLink>
+      <NavLink to='/Franqueado' className={({ isActive }) => (isActive ? styles.active : undefined)}><li>Franqueado</li></NavLink>
       </ul>
     </nav>
   )

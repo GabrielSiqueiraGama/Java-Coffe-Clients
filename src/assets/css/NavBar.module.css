@@ -1,6 +1,10 @@
 .body{
     box-sizing: border-box;
 }
+.nomeLogo{
+    color: var(--darkbrown);
+    font-weight: 400;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -12,11 +16,17 @@
     list-style: none;
     display: flex;
     gap: 2rem;
+    font-weight: 400;
 }
 .nav a{
     text-decoration: none;
     color: inherit;
 }
+.active {
+    font-weight: bold; /* Você pode ajustar isso conforme necessário */
+    color: var(--highlightColor); /* Defina a cor de destaque desejada */
+}
+
 .divLogo{
     display: flex;
     gap: 1rem;
